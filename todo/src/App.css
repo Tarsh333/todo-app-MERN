@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.success{
+  background-color: rgb(136, 243, 136);
+  color: black;
+}
+.danger{
+  background-color: rgb(245, 151, 151);
+  color: white;
+}
+.alert{
+  color: white;
+  font-size: 10px;
+  padding: 4px;
+  border-radius: 6px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.main{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  flex-direction:column ;
+  background-color: white;
+  margin-top: 100px;
+  width: fit-content;
+  padding: 20px;
+}
+body{
+  background-color: hsl(210, 36%, 96%);
+}
+input{
+  width: 380px;
+  padding:7px 10px;
+  border: 0px;
+  background-color: hsl(210, 36%, 96%);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+button[type=submit]{
+  padding:8px 12px;
+ background-color: hsl(205deg 100% 79%);
+ transition: 0.5s all linear;
+ border: 0px;
+  cursor: pointer;
+}
+button[type=submit]:hover{
+  background-color:hsl(205deg 80% 62%);
+  color: white;
+}
+.todo{
+  text-transform: capitalize;
+}
+article{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 15px;
+}
+article button{
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+  margin-right: 4px;
+}
+.clear-btn{
+  background-color: white;
+  color: rgb(248, 87, 87);
+  border: 0px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  width: 50%;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.clear-btn:hover{
+  color: red;
+}
+article p{
+  padding-left: 4px;
+}
+.logout{
+  /* margin-top: 100px; */
+  cursor: pointer;
+  position: relative;
+  top: 100px;
+  /* left: 210px; */
+  background-color: rgb(223, 83, 83);
+  color: white;
+  padding: 8px 15px;
+  border: 2px solid black;
+}
+.login-page{
+  /* width: 300px; */
+  margin: auto;
+  display: flex;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+  align-items: center;
+  flex-direction:column ;
+  /* background-color: white; */
+  margin-top: 100px;
+  width: fit-content;
+  padding: 20px;
+  height: 200px;
+  /* justify-content: space-evenly; */
+}
+.login-page h2{
+  text-align: center;
+  color: green;
+}
+.login-page button{
+  margin-top: 25px;
+}
+.login-page p{
+  margin-top: 5px;
+}
